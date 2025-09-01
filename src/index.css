@@ -2,41 +2,61 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Portfolio Design System - Professional & Modern */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Core Background & Text */
+    --background: 220 15% 97%;
+    --foreground: 220 15% 12%;
 
+    /* Portfolio Brand Colors */
+    --primary: 220 70% 50%;
+    --primary-foreground: 220 15% 97%;
+    --primary-glow: 220 80% 60%;
+
+    /* Surface Colors */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 15% 12%;
+    
+    --surface-elevated: 220 30% 98%;
+    --surface-muted: 220 15% 94%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    /* Accent & Highlights */
+    --accent: 260 60% 65%;
+    --accent-foreground: 220 15% 97%;
+    --accent-muted: 260 30% 85%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Text Hierarchy */
+    --text-primary: 220 15% 12%;
+    --text-secondary: 220 10% 40%;
+    --text-muted: 220 8% 60%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Interactive States */
+    --hover: 220 80% 55%;
+    --focus: 220 85% 60%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Borders & Inputs */
+    --border: 220 15% 88%;
+    --input: 220 15% 88%;
+    --ring: 220 70% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220 70% 50%), hsl(260 60% 65%));
+    --gradient-surface: linear-gradient(135deg, hsl(220 30% 98%), hsl(220 20% 96%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 70% 50% / 0.1), hsl(260 60% 65% / 0.1));
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Shadows */
+    --shadow-sm: 0 2px 8px hsl(220 15% 12% / 0.04);
+    --shadow-md: 0 4px 16px hsl(220 15% 12% / 0.08);
+    --shadow-lg: 0 8px 32px hsl(220 15% 12% / 0.12);
+    --shadow-glow: 0 0 40px hsl(220 70% 50% / 0.15);
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Animation Curves */
+    --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+    --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -56,33 +76,51 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* Core Background & Text */
+    --background: 220 25% 8%;
+    --foreground: 220 15% 92%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    /* Portfolio Brand Colors */
+    --primary: 220 80% 60%;
+    --primary-foreground: 220 25% 8%;
+    --primary-glow: 220 85% 70%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    /* Surface Colors */
+    --card: 220 20% 12%;
+    --card-foreground: 220 15% 92%;
+    
+    --surface-elevated: 220 20% 14%;
+    --surface-muted: 220 15% 16%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    /* Accent & Highlights */
+    --accent: 260 70% 70%;
+    --accent-foreground: 220 25% 8%;
+    --accent-muted: 260 40% 25%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    /* Text Hierarchy */
+    --text-primary: 220 15% 92%;
+    --text-secondary: 220 10% 70%;
+    --text-muted: 220 8% 50%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    /* Interactive States */
+    --hover: 220 85% 65%;
+    --focus: 220 90% 70%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    /* Borders & Inputs */
+    --border: 220 15% 20%;
+    --input: 220 15% 20%;
+    --ring: 220 80% 60%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(220 80% 60%), hsl(260 70% 70%));
+    --gradient-surface: linear-gradient(135deg, hsl(220 20% 12%), hsl(220 15% 14%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 80% 60% / 0.1), hsl(260 70% 70% / 0.1));
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
+    /* Shadows */
+    --shadow-sm: 0 2px 8px hsl(220 25% 4% / 0.3);
+    --shadow-md: 0 4px 16px hsl(220 25% 4% / 0.4);
+    --shadow-lg: 0 8px 32px hsl(220 25% 4% / 0.5);
+    --shadow-glow: 0 0 40px hsl(220 80% 60% / 0.2);
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -100,6 +138,68 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  /* Animation Classes */
+  .fade-in {
+    animation: fadeIn 0.8s var(--ease-smooth) forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  .fade-in-delay-1 {
+    animation: fadeIn 0.8s var(--ease-smooth) 0.2s forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  .fade-in-delay-2 {
+    animation: fadeIn 0.8s var(--ease-smooth) 0.4s forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  .fade-in-delay-3 {
+    animation: fadeIn 0.8s var(--ease-smooth) 0.6s forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Portfolio Section */
+  .portfolio-section {
+    @apply py-20 px-6;
+  }
+
+  /* Card Styles */
+  .portfolio-card {
+    @apply bg-card border border-border rounded-xl p-6 transition-all duration-300;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .portfolio-card:hover {
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
