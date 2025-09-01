@@ -71,6 +71,13 @@ const HeroSection = () => {
               <circle cx="12" cy="17" r="1"/>
             </svg>
           </a>
+          <a href="https://codeforces.com/profile/Symbian_Lover" target="_blank" className="text-text-muted hover:text-primary transition-colors duration-300" title="Codeforces">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" className="h-6 w-6 fill-current">
+              <rect x="6" y="6" width="6" height="36" fill="currentColor"/>
+              <rect x="20" y="12" width="6" height="30" fill="currentColor"/>
+              <rect x="34" y="18" width="6" height="24" fill="currentColor"/>
+            </svg>
+          </a>
           <a href="https://www.instagram.com/s_d_r_k_p_" target="_blank" className="text-text-muted hover:text-primary transition-colors duration-300" title="Instagram">
             <Instagram className="h-6 w-6" />
           </a>
