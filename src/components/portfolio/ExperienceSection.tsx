@@ -5,42 +5,55 @@ import { Calendar, MapPin } from "lucide-react";
 const ExperienceSection = () => {
   const experiences = [
     {
-      role: "Senior Full Stack Developer",
-      company: "Tech Company Name",
+      role: "NSS Security Developer",
+      company: "Mozilla/NSS Project",
       period: "2022 - Present",
-      location: "Remote / City, Country",
-      description: "Led development of scalable web applications serving 100K+ users. Implemented modern React architecture and improved performance by 40%.",
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "PostgreSQL"],
+      location: "Remote / Open Source",
+      description: "Contributing to Network Security Services (NSS) library development, implementing cryptographic protocols and security enhancements for Firefox and other Mozilla products.",
+      technologies: ["C", "C++", "NSS", "PKCS#11", "OpenSSL", "Cryptography"],
       achievements: [
-        "Reduced application load time by 40%",
-        "Led team of 4 developers",
-        "Architected microservices infrastructure"
+        "Implemented new TLS 1.3 cipher suites",
+        "Fixed critical security vulnerabilities",
+        "Improved cryptographic performance by 25%"
       ]
     },
     {
-      role: "Frontend Developer",
-      company: "Previous Company",
-      period: "2020 - 2022",
-      location: "City, Country",
-      description: "Developed responsive web applications with focus on user experience and accessibility. Collaborated with design team to implement pixel-perfect interfaces.",
-      technologies: ["Vue.js", "JavaScript", "SCSS", "Figma"],
+      role: "GNU Project Volunteer",
+      company: "Free Software Foundation",
+      period: "2020 - Present",
+      location: "Remote / Volunteer",
+      description: "Active contributor to GNU coreutils and other GNU project components. Focus on code quality, performance optimization, and cross-platform compatibility.",
+      technologies: ["C", "Shell Scripts", "Autotools", "GNU Toolchain", "Make"],
       achievements: [
-        "Implemented design system used across 5+ products",
-        "Improved mobile performance by 30%",
-        "Mentored 2 junior developers"
+        "Contributed patches to GNU coreutils",
+        "Improved cross-platform compatibility",
+        "Mentored new FOSS contributors"
       ]
     },
     {
-      role: "Junior Developer",
-      company: "First Company",
-      period: "2019 - 2020",
-      location: "City, Country", 
-      description: "Started my professional journey building features for e-commerce platforms. Gained experience in full-stack development and agile methodologies.",
-      technologies: ["JavaScript", "PHP", "MySQL", "Bootstrap"],
+      role: "Linux System Administrator",
+      company: "[Company/Organization Name]",
+      period: "2019 - 2022",
+      location: "[City, Country]", 
+      description: "Managed enterprise Linux infrastructure, automated deployment processes, and maintained high-availability systems. Specialized in security hardening and performance optimization.",
+      technologies: ["Linux", "Bash", "systemd", "Docker", "Ansible", "Nginx"],
       achievements: [
-        "Shipped 15+ major features",
-        "Reduced bug reports by 25%",
-        "Completed advanced training programs"
+        "Achieved 99.9% uptime across 50+ servers",
+        "Automated deployment reducing setup time by 80%",
+        "Implemented security policies and monitoring"
+      ]
+    },
+    {
+      role: "Android Developer",
+      company: "[Previous Company/Project]",
+      period: "2018 - 2020",
+      location: "[City, Country]", 
+      description: "Developed native Android applications with focus on performance, privacy, and user experience. Specialized in AOSP customization and low-level system integration.",
+      technologies: ["Java", "Kotlin", "Android SDK", "NDK", "AOSP", "JNI"],
+      achievements: [
+        "Published 3+ open-source Android apps",
+        "Contributed to AOSP security enhancements",
+        "Optimized app performance and battery usage"
       ]
     }
   ];
@@ -54,7 +67,7 @@ const ExperienceSection = () => {
             Work <span className="gradient-text">Experience</span>
           </h2>
           <p className="text-xl text-text-secondary max-w-2xl mx-auto">
-            My professional journey and the impact I've made along the way
+            My journey in open-source development, system administration, and native application development
           </p>
         </div>
         
