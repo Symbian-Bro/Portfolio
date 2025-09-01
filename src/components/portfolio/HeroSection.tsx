@@ -16,10 +16,10 @@ const HeroSection = () => {
         {/* Name & Title */}
         <div className="fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            <span className="gradient-text">Your Name</span>
+            <span className="gradient-text">SIDDHARTH K P</span>
           </h1>
           <h2 className="text-2xl md:text-3xl text-text-secondary mb-8 font-light">
-            Open Source Developer & Security Engineer
+            Native App Developer & Open-source enthusiast
           </h2>
         </div>
         
@@ -27,7 +27,7 @@ const HeroSection = () => {
         <div className="fade-in-delay-1">
           <p className="text-lg md:text-xl text-text-muted max-w-2xl mx-auto mb-12 leading-relaxed">
             Contributing to the GNU Project, developing native Linux and Android applications, 
-            and working with NSS to advance software freedom and security.
+            and working with CUSAT FOSS to advance software freedom and security.
           </p>
         </div>
         
