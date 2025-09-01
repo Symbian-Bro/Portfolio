@@ -5,31 +5,31 @@ import { Calendar, MapPin } from "lucide-react";
 const ExperienceSection = () => {
   const experiences = [
     {
-      role: "NSS Security Developer",
-      company: "Mozilla/NSS Project",
+      role: "Native App Developer",
+      company: "Self-Employed",
       period: "2022 - Present",
-      location: "Remote / Open Source",
-      description: "Contributing to Network Security Services (NSS) library development, implementing cryptographic protocols and security enhancements for Firefox and other Mozilla products.",
-      technologies: ["C", "C++", "NSS", "PKCS#11", "OpenSSL", "Cryptography"],
+      location: "Remote / Freelance",
+      description: "Develop and maintain native applications for Linux and Android platforms. Focus on performance, security, and user experience. Engage with open-source communities to contribute and collaborate on various projects.",
+      technologies: ["C", "C++", "Python", "PyQt6", "SSH", "Git"],
       achievements: [
-        "Implemented new TLS 1.3 cipher suites",
-        "Fixed critical security vulnerabilities",
-        "Improved cryptographic performance by 25%"
+        "Built system management utilities which got an overwhelmingly positive user feedback",
+        "Contributed to acclaimed open-source projects",
       ]
     },
     {
       role: "GNU Project Volunteer",
       company: "Free Software Foundation",
-      period: "2020 - Present",
+      period: "2022 - Present",
       location: "Remote / Volunteer",
-      description: "Active contributor to GNU coreutils and other GNU project components. Focus on code quality, performance optimization, and cross-platform compatibility.",
-      technologies: ["C", "Shell Scripts", "Autotools", "GNU Toolchain", "Make"],
+      description: "Active contributor to GNU Malayalam Translation Team. Involved in translating, proofreading, and localizing GNU software and documentation to make it accessible to Malayalam-speaking users.",
+      technologies: ["Lokalize", "Git", "Poedit", "Gitlab"],
       achievements: [
-        "Contributed patches to GNU coreutils",
-        "Improved cross-platform compatibility",
+        "Contributed to GNU Malayalam Team",
+        "Translated 10+ pages of documentation",
         "Mentored new FOSS contributors"
       ]
     },
+    /*
     {
       role: "Linux System Administrator",
       company: "[Company/Organization Name]",
@@ -43,16 +43,16 @@ const ExperienceSection = () => {
         "Implemented security policies and monitoring"
       ]
     },
+    */
     {
       role: "Android Developer",
-      company: "[Previous Company/Project]",
-      period: "2018 - 2020",
-      location: "[City, Country]", 
-      description: "Developed native Android applications with focus on performance, privacy, and user experience. Specialized in AOSP customization and low-level system integration.",
+      company: "Freelance",
+      period: "2020 - 2023",
+      location: "Remote", 
+      description: "Developed native Android applications with focus on user-experience.",
       technologies: ["Java", "Kotlin", "Android SDK", "NDK", "AOSP", "JNI"],
       achievements: [
-        "Published 3+ open-source Android apps",
-        "Contributed to AOSP security enhancements",
+        "Published 3+ Android apps with 5K+ downloads in total on the Galaxy Store",
         "Optimized app performance and battery usage"
       ]
     }

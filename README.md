@@ -1,6 +1,5 @@
  Portfolio Website
 *******************
-
 Languages Used : Typescript, HTML and CSS
 
 Directions :
