@@ -9,20 +9,20 @@ const ContactSection = () => {
     {
       icon: <Mail className="h-6 w-6" />,
       label: "Email",
-      value: "your.email@example.com",
-      href: "mailto:your.email@example.com"
+      value: "siddharth.alakkode@proton.me",
+      href: "mailto:siddharth.alakkode@proton.me"
     },
     {
       icon: <Phone className="h-6 w-6" />,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+91 6282671991",
+      href: "tel:+916282671991"
     },
     {
       icon: <MapPin className="h-6 w-6" />,
       label: "Location",
-      value: "City, Country",
-      href: "#"
+      value: "Kochi, India",
+      href: "https://share.google/N8VcjRvVW1WRnXW2s"
     }
   ];
 
