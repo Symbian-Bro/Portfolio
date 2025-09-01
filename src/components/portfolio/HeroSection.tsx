@@ -56,7 +56,7 @@ const HeroSection = () => {
               <path d="M20.84 10.087h-5.156L17.544 3.54c.126-.385.491-.385.617 0l2.679 6.547z"/>
             </svg>
           </a>
-          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300" title="Matrix">
+          <a href="https://matrix.to/#/@symbian-bro:matrix.org" target="_blank" className="text-text-muted hover:text-primary transition-colors duration-300" title="Matrix">
             <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
               <path d="M.5.5v23h23v-23zM2.5 21.5v-19h19v19z"/>
               <path d="M3.5 2.5h1v19h-1zM19.5 2.5h1v19h-1z"/>
@@ -71,13 +71,13 @@ const HeroSection = () => {
               <circle cx="12" cy="17" r="1"/>
             </svg>
           </a>
-          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300" title="Instagram">
+          <a href="https://www.instagram.com/s_d_r_k_p_" target="_blank" className="text-text-muted hover:text-primary transition-colors duration-300" title="Instagram">
             <Instagram className="h-6 w-6" />
           </a>
-          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/siddharth-k-p/" target="_blank" className="text-text-muted hover:text-primary transition-colors duration-300" title="LinkedIn">
             <Linkedin className="h-6 w-6" />
           </a>
-          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300" title="Email">
+          <a href="mailto:siddhubhai998@gmail.com" className="text-text-muted hover:text-primary transition-colors duration-300" title="Email">
             <Mail className="h-6 w-6" />
           </a>
         </div>
