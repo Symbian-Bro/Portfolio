@@ -33,7 +33,7 @@ const HeroSection = () => {
         
         {/* CTA Buttons */}
         <div className="fade-in-delay-2 flex flex-col sm:flex-row gap-4 justify-center mb-16">
-          <a href="https://github.com/symbian-bro"><Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow">
+          <a href="https://github.com/symbian-bro" target="_blank"><Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow">
             View My Work
           </Button></a>
           <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
