@@ -6,17 +6,17 @@ const Footer = () => {
   const socialLinks = [
     {
       icon: <Github className="h-5 w-5" />,
-      href: "#",
+      href: "https://github.com/symbian-bro",
       label: "GitHub"
     },
     {
       icon: <Linkedin className="h-5 w-5" />,
-      href: "#",
+      href: "https://www.linkedin.com/in/siddharth-k-p/",
       label: "LinkedIn"
     },
     {
       icon: <Mail className="h-5 w-5" />,
-      href: "mailto:your.email@example.com",
+      href: "mailto:siddharth.alakkode@proton.me",
       label: "Email"
     }
   ];
@@ -35,7 +35,7 @@ const Footer = () => {
               onClick={scrollToTop}
               className="text-2xl font-bold gradient-text hover:scale-105 transition-transform duration-300 mb-2"
             >
-              Your Name
+              SIDDHARTH K P
             </button>
             <p className="text-text-secondary">
               Creating digital experiences that make a difference
@@ -95,7 +95,7 @@ const Footer = () => {
           {/* Copyright */}
           <div className="pt-8 border-t border-border">
             <p className="text-text-muted text-sm flex items-center justify-center gap-1">
-              © {currentYear} Built with <Heart className="h-4 w-4 text-red-500" /> by Your Name
+              © {currentYear} SIDDHARTH
             </p>
           </div>
         </div>

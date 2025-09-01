@@ -36,9 +36,9 @@ const ProjectsSection = () => {
       title: "Brightnessctl Extension",
       description: "Developed a brightnessctl extension that will adjust the brightness accroding to the ambient light.",
       image: "/images/bldr.png",
-      technologies: ["C", "NSS", "PKCS#11", "OpenSSL", "Cryptography"],
+      technologies: ["Python", "Brightnessctl", "Arduino", "C++", "CPS", "Electronics"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Symbian-Bro/brightnessctl-ldr",
       featured: false
     }
   ];
