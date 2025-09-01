@@ -6,10 +6,10 @@ import { ExternalLink, Github } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Linux Desktop Music Player",
-      description: "Native GTK-based music player for Linux with playlist management, metadata editing, and plugin support. Focuses on performance and user privacy.",
+      title: "Quick Vantage",
+      description: "System management utility for Lenovo laptops running Linux.",
       image: "/api/placeholder/600/400",
-      technologies: ["C++", "GTK4", "GStreamer", "SQLite", "Meson"],
+      technologies: ["Python", "Shell", "Qt Designer", "PyQt5", "Sys-administration"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
