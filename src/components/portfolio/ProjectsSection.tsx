@@ -8,7 +8,7 @@ const ProjectsSection = () => {
     {
       title: "Quick Vantage",
       description: "System management utility for Lenovo laptops running Linux.",
-      image: "/api/placeholder/600/400",
+      image: "images/qv.png",
       technologies: ["Python", "Shell", "Qt Designer", "PyQt5", "Sys-administration"],
       liveUrl: "#",
       githubUrl: "https://github.com/Symbian-Bro/quick-vantage-python-flavour",
@@ -16,8 +16,8 @@ const ProjectsSection = () => {
     },
     {
       title: "Primary Selection Logger",
-      description: "A lightweight tool to log primary selection clipboard data on Linux systems running X server.",
-      image: "/api/placeholder/600/400",
+      description: "A lightweight tool to log primary selection data of X server on Linux systems.",
+      image: "images/logger.png",
       technologies: ["Python", "Cybersecurity", "Productivity", "X11"],
       liveUrl: "#",
       githubUrl: "https://github.com/Symbian-Bro/primary-selection-logger",
@@ -26,16 +26,16 @@ const ProjectsSection = () => {
     {
       title: "GNU Project Contribution",
       description: "Contributed to GNU Malayalam Translation Team.",
-      image: "/api/placeholder/600/400", 
+      image: "images/gnu.png", 
       technologies: ["Lokalize", "Poedit", "Git", "Language","Localization","GNU"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
-      title: "NSS Security Module",
-      description: "Developed cryptographic modules for NSS with focus on modern encryption standards and performance optimization.",
-      image: "/api/placeholder/600/400",
+      title: "Brightnessctl Extension",
+      description: "Developed a brightnessctl extension that will adjust the brightness accroding to the ambient light.",
+      image: "/images/bldr.png",
       technologies: ["C", "NSS", "PKCS#11", "OpenSSL", "Cryptography"],
       liveUrl: "#",
       githubUrl: "#",
@@ -70,9 +70,7 @@ const ProjectsSection = () => {
               <div className={`${index % 2 === 1 ? 'lg:order-2' : ''}`}>
                 <Card className="portfolio-card overflow-hidden group">
                   <div className="aspect-video bg-surface-muted relative overflow-hidden">
-                    <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                      <span className="text-text-muted font-medium">Project Screenshot</span>
-                    </div>
+                    <img src={project.image} alt={`${project.title} screenshot`} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"/>
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
                   </div>
                 </Card>
@@ -131,9 +129,7 @@ const ProjectsSection = () => {
               <Card key={project.title} className="portfolio-card group">
                 {/* Project Image */}
                 <div className="aspect-video bg-surface-muted relative overflow-hidden rounded-lg mb-4">
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center">
-                    <span className="text-text-muted text-sm">Project Screenshot</span>
-                  </div>
+                  <img src={project.image} alt={`${project.title} screenshot`} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"/>
                 </div>
                 
                 {/* Project Details */}
