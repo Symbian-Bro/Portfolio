@@ -44,10 +44,10 @@ const HeroSection = () => {
         
         {/* Social Links */}
         <div className="fade-in-delay-3 flex justify-center space-x-6 mb-16">
-          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300" title="GitHub">
+          <a href="https://github.com/symbian-bro" target="_blank" className="text-text-muted hover:text-primary transition-colors duration-300" title="GitHub">
             <Github className="h-6 w-6" />
           </a>
-          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300" title="GitLab">
+          <a href="https://gitlab.com/symbian-bro" target="_blank" className="text-text-muted hover:text-primary transition-colors duration-300" title="GitLab">
             <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
               <path d="M12 21.42l3.684-11.333H8.316L12 21.42z"/>
               <path d="M3.16 10.087L1.123 15.55c-.197.502.07 1.07.507 1.313L12 21.42l-8.84-11.333z"/>
