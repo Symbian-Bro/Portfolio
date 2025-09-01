@@ -5,18 +5,18 @@ const AboutSection = () => {
   const highlights = [
     {
       icon: <Code className="h-8 w-8 text-primary" />,
-      title: "Clean Code",
-      description: "Writing maintainable, scalable code following best practices and modern standards."
+      title: "Open Source",
+      description: "Contributing to FOSS projects and maintaining software that respects user freedom and privacy."
     },
     {
       icon: <Palette className="h-8 w-8 text-accent" />,
-      title: "Design Focus",
-      description: "Creating beautiful, intuitive interfaces that provide exceptional user experiences."
+      title: "Native Development",
+      description: "Building efficient Linux desktop and Android applications using native technologies."
     },
     {
       icon: <Zap className="h-8 w-8 text-primary-glow" />,
-      title: "Performance",
-      description: "Optimizing applications for speed, accessibility, and seamless functionality."
+      title: "Security Focus",
+      description: "Working with NSS and implementing robust security practices in all development work."
     }
   ];
 
@@ -29,7 +29,7 @@ const AboutSection = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-xl text-text-secondary max-w-2xl mx-auto">
-            Passionate developer with [X] years of experience creating digital solutions
+            Open-source advocate with [X] years of experience in native application development and FOSS contributions
           </p>
         </div>
         
@@ -41,19 +41,20 @@ const AboutSection = () => {
             </h3>
             <div className="space-y-4 text-text-secondary leading-relaxed">
               <p>
-                I'm a passionate full-stack developer based in [Your Location], 
-                specializing in creating digital experiences that combine beautiful 
-                design with robust functionality. My journey in tech started [X years ago] 
-                when I [brief origin story].
+                I'm a passionate open-source developer based in [Your Location], 
+                specializing in native Linux desktop applications and Android development. 
+                My journey in tech started [X years ago] when I discovered the power 
+                of free and open-source software.
               </p>
               <p>
-                When I'm not coding, you can find me [your hobbies/interests]. 
-                I believe that great software is built by people who understand 
-                both the technical and human sides of problems.
+                As a volunteer for the GNU Project and contributor to NSS (Network Security Services), 
+                I'm committed to advancing software freedom and security. I believe that great 
+                software should be accessible, secure, and respectful of user privacy.
               </p>
               <p>
-                I'm always excited to work on projects that make a positive impact 
-                and collaborate with teams that share my passion for quality and innovation.
+                I'm always excited to contribute to projects that make a positive impact 
+                on the FOSS community and collaborate with fellow developers who share 
+                my passion for open-source principles and user empowerment.
               </p>
             </div>
           </div>

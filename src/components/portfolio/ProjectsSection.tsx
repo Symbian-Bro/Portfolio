@@ -6,37 +6,37 @@ import { ExternalLink, Github } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with modern UI, secure payment processing, and admin dashboard. Built with React, Node.js, and PostgreSQL.",
+      title: "Linux Desktop Music Player",
+      description: "Native GTK-based music player for Linux with playlist management, metadata editing, and plugin support. Focuses on performance and user privacy.",
       image: "/api/placeholder/600/400",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Tailwind CSS"],
+      technologies: ["C++", "GTK4", "GStreamer", "SQLite", "Meson"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "Collaborative project management tool with real-time updates, team communication, and advanced analytics. Increased team productivity by 35%.",
+      title: "Android Privacy Tool",
+      description: "FOSS Android application for managing app permissions and network access. Helps users understand and control their data privacy.",
       image: "/api/placeholder/600/400",
-      technologies: ["Vue.js", "Express", "MongoDB", "Socket.io"],
+      technologies: ["Kotlin", "Android SDK", "Room", "WorkManager"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
-      title: "Personal Finance Tracker",
-      description: "Mobile-first application for expense tracking and budget management with interactive charts and spending insights.",
+      title: "GNU Project Contribution",
+      description: "Contributed to GNU coreutils with performance improvements and bug fixes. Enhanced compatibility across different Unix-like systems.",
       image: "/api/placeholder/600/400", 
-      technologies: ["React Native", "Firebase", "Chart.js"],
+      technologies: ["C", "Autotools", "Shell Scripts", "GNU Toolchain"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
-      title: "Weather Dashboard",
-      description: "Real-time weather application with location-based forecasts, interactive maps, and customizable alerts.",
+      title: "NSS Security Module",
+      description: "Developed cryptographic modules for NSS with focus on modern encryption standards and performance optimization.",
       image: "/api/placeholder/600/400",
-      technologies: ["JavaScript", "Weather API", "Mapbox"],
+      technologies: ["C", "NSS", "PKCS#11", "OpenSSL", "Cryptography"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
