@@ -26,7 +26,7 @@ const HeroSection = () => {
         {/* Description */}
         <div className="fade-in-delay-1">
           <p className="text-lg md:text-xl text-text-muted max-w-2xl mx-auto mb-12 leading-relaxed">
-            Contributing to the GNU Project, developing native Linux and Android applications, 
+            Contributing to the GNU Project, developing native Linux and Android applications 
             and working with CUSAT FOSS to advance software freedom and security.
           </p>
         </div>
@@ -36,10 +36,10 @@ const HeroSection = () => {
           <a href="https://github.com/symbian-bro" target="_blank"><Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow">
             View My Work
           </Button></a>
-          <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+          <a href="mailto:siddhubhai998@gmail.com"><Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
             <Mail className="mr-2 h-4 w-4" />
             Get In Touch
-          </Button>
+          </Button></a>
         </div>
         
         {/* Social Links */}
