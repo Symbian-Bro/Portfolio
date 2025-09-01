@@ -11,23 +11,23 @@ const ProjectsSection = () => {
       image: "/api/placeholder/600/400",
       technologies: ["Python", "Shell", "Qt Designer", "PyQt5", "Sys-administration"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Symbian-Bro/quick-vantage-python-flavour",
       featured: true
     },
     {
-      title: "Android Privacy Tool",
-      description: "FOSS Android application for managing app permissions and network access. Helps users understand and control their data privacy.",
+      title: "Primary Selection Logger",
+      description: "A lightweight tool to log primary selection clipboard data on Linux systems running X server.",
       image: "/api/placeholder/600/400",
-      technologies: ["Kotlin", "Android SDK", "Room", "WorkManager"],
+      technologies: ["Python", "Cybersecurity", "Productivity", "X11"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Symbian-Bro/primary-selection-logger",
       featured: true
     },
     {
       title: "GNU Project Contribution",
-      description: "Contributed to GNU coreutils with performance improvements and bug fixes. Enhanced compatibility across different Unix-like systems.",
+      description: "Contributed to GNU Malayalam Translation Team.",
       image: "/api/placeholder/600/400", 
-      technologies: ["C", "Autotools", "Shell Scripts", "GNU Toolchain"],
+      technologies: ["Lokalize", "Poedit", "Git", "Language","Localization","GNU"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
