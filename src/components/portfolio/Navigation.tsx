@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Sun, Moon } from "lucide-react";
+import { useTheme } from "next-themes";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { theme, setTheme } = useTheme();
 
   const navItems = [
     { name: "About", href: "#about" },
@@ -61,6 +63,17 @@ const Navigation = () => {
                 <span className="absolute inset-x-0 -bottom-1 h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
               </button>
             ))}
+            
+            {/* Dark Mode Toggle */}
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+              className="text-text-secondary hover:text-primary p-2"
+            >
+              {theme === "dark" ? <Sun className="h-4 w-4" /> : <Moon className="h-4 w-4" />}
+            </Button>
+            
             <Button 
               onClick={() => scrollToSection("#contact")}
               size="sm"
@@ -92,6 +105,16 @@ const Navigation = () => {
                   {item.name}
                 </button>
               ))}
+              
+              {/* Mobile Dark Mode Toggle */}
+              <button
+                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+                className="text-text-secondary hover:text-primary transition-colors duration-300 font-medium text-left py-2 flex items-center"
+              >
+                {theme === "dark" ? <Sun className="h-4 w-4 mr-2" /> : <Moon className="h-4 w-4 mr-2" />}
+                {theme === "dark" ? "Light Mode" : "Dark Mode"}
+              </button>
+              
               <Button 
                 onClick={() => scrollToSection("#contact")}
                 size="sm"

@@ -1,9 +1,9 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Mail, Github, Linkedin } from "lucide-react";
+import { ArrowDown, Mail, Github, Linkedin, Instagram } from "lucide-react";
 
 const HeroSection = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
+    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
       {/* Background Gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-accent/5" />
       
@@ -19,15 +19,15 @@ const HeroSection = () => {
             <span className="gradient-text">Your Name</span>
           </h1>
           <h2 className="text-2xl md:text-3xl text-text-secondary mb-8 font-light">
-            Full Stack Developer & UI/UX Designer
+            Open Source Developer & Security Engineer
           </h2>
         </div>
         
         {/* Description */}
         <div className="fade-in-delay-1">
           <p className="text-lg md:text-xl text-text-muted max-w-2xl mx-auto mb-12 leading-relaxed">
-            Passionate about creating beautiful, functional digital experiences that solve real-world problems. 
-            I specialize in modern web technologies and user-centered design.
+            Contributing to the GNU Project, developing native Linux and Android applications, 
+            and working with NSS to advance software freedom and security.
           </p>
         </div>
         
@@ -44,13 +44,40 @@ const HeroSection = () => {
         
         {/* Social Links */}
         <div className="fade-in-delay-3 flex justify-center space-x-6 mb-16">
-          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300">
+          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300" title="GitHub">
             <Github className="h-6 w-6" />
           </a>
-          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300">
+          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300" title="GitLab">
+            <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
+              <path d="M12 21.42l3.684-11.333H8.316L12 21.42z"/>
+              <path d="M3.16 10.087L1.123 15.55c-.197.502.07 1.07.507 1.313L12 21.42l-8.84-11.333z"/>
+              <path d="M3.16 10.087h5.156L6.456 3.54c-.126-.385-.491-.385-.617 0L3.16 10.087z"/>
+              <path d="M20.84 10.087L22.877 15.55c.197.502-.07 1.07-.507 1.313L12 21.42l8.84-11.333z"/>
+              <path d="M20.84 10.087h-5.156L17.544 3.54c.126-.385.491-.385.617 0l2.679 6.547z"/>
+            </svg>
+          </a>
+          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300" title="Matrix">
+            <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
+              <path d="M.5.5v23h23v-23zM2.5 21.5v-19h19v19z"/>
+              <path d="M3.5 2.5h1v19h-1zM19.5 2.5h1v19h-1z"/>
+              <circle cx="6" cy="7" r="1"/>
+              <circle cx="9" cy="7" r="1"/>
+              <circle cx="12" cy="7" r="1"/>
+              <circle cx="6" cy="12" r="1"/>
+              <circle cx="9" cy="12" r="1"/>
+              <circle cx="12" cy="12" r="1"/>
+              <circle cx="6" cy="17" r="1"/>
+              <circle cx="9" cy="17" r="1"/>
+              <circle cx="12" cy="17" r="1"/>
+            </svg>
+          </a>
+          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300" title="Instagram">
+            <Instagram className="h-6 w-6" />
+          </a>
+          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300" title="LinkedIn">
             <Linkedin className="h-6 w-6" />
           </a>
-          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300">
+          <a href="#" className="text-text-muted hover:text-primary transition-colors duration-300" title="Email">
             <Mail className="h-6 w-6" />
           </a>
         </div>
