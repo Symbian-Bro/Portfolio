@@ -16,7 +16,7 @@ const AboutSection = () => {
     {
       icon: <Zap className="h-8 w-8 text-primary-glow" />,
       title: "Security Focus",
-      description: "Working with NSS and implementing robust security practices in all development work."
+      description: "Creating handy tools to enhance cybersecurity awareness and productivity."
     }
   ];
 
@@ -43,7 +43,7 @@ const AboutSection = () => {
               <p>
                 I'm a passionate open-source developer based in Kannur, 
                 specializing in native Linux desktop applications and Android development. 
-                My journey in tech started 3 when I discovered the power 
+                My journey in tech started 3 years ago when I discovered the power 
                 of free and open-source software.
               </p>
               <p>

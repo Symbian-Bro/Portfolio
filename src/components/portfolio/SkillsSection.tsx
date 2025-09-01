@@ -63,15 +63,15 @@ const SkillsSection = () => {
           <Card className="portfolio-card max-w-4xl mx-auto">
             <div className="grid md:grid-cols-3 gap-8 text-center">
               <div>
-                <h4 className="text-2xl font-bold text-primary mb-2">[X]+</h4>
+                <h4 className="text-2xl font-bold text-primary mb-2">5+</h4>
                 <p className="text-text-secondary">Projects Completed</p>
               </div>
               <div>
-                <h4 className="text-2xl font-bold text-accent mb-2">[X]+</h4>
+                <h4 className="text-2xl font-bold text-accent mb-2">7+</h4>
                 <p className="text-text-secondary">Technologies Mastered</p>
               </div>
               <div>
-                <h4 className="text-2xl font-bold text-primary-glow mb-2">[X]+</h4>
+                <h4 className="text-2xl font-bold text-primary-glow mb-2">4+</h4>
                 <p className="text-text-secondary">Years Experience</p>
               </div>
             </div>
