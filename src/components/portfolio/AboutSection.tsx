@@ -29,7 +29,7 @@ const AboutSection = () => {
             About <span className="gradient-text">Me</span>
           </h2>
           <p className="text-xl text-text-secondary max-w-2xl mx-auto">
-            Open-source advocate with [X] years of experience in native application development and FOSS contributions
+            Open-source advocate with 3 years of experience in native application development and FOSS contributions
           </p>
         </div>
         
@@ -37,17 +37,17 @@ const AboutSection = () => {
           {/* Text Content */}
           <div className="fade-in-delay-1">
             <h3 className="text-2xl font-semibold mb-6 text-text-primary">
-              Hello! I'm [Your Name]
+              Hello! I'm SIDDHARTH
             </h3>
             <div className="space-y-4 text-text-secondary leading-relaxed">
               <p>
-                I'm a passionate open-source developer based in [Your Location], 
+                I'm a passionate open-source developer based in Kannur, 
                 specializing in native Linux desktop applications and Android development. 
-                My journey in tech started [X years ago] when I discovered the power 
+                My journey in tech started 3 when I discovered the power 
                 of free and open-source software.
               </p>
               <p>
-                As a volunteer for the GNU Project and contributor to NSS (Network Security Services), 
+                As a volunteer for the GNU Project and contributor to various FOSS initiatives, 
                 I'm committed to advancing software freedom and security. I believe that great 
                 software should be accessible, secure, and respectful of user privacy.
               </p>
